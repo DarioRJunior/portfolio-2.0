@@ -14,6 +14,6 @@ elemento.addEventListener('mouseover', () => {
     descricao.innerHTML = `<p>${sobreSkill[index1]} </p>` ;
 } )
 elemento.addEventListener('mouseout', () => {
-descricao.innerHTML = 'Passe o Mouse por cima para ver a descrição!';
+descricao.innerHTML = 'Passe o Mouse ou Clique nos icones para ver a descrição!';
 } )
 } );
