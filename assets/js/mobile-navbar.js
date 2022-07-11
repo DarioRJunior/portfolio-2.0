@@ -14,3 +14,10 @@ function toggleMenu(event) {
 }
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+var links = document.querySelectorAll(".nav-list a");
+for (i = 0; i < links.length; i++) {
+  links[i].onclick = function() {
+    nav.classList.remove('active');
+  }
+}
