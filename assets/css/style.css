@@ -103,8 +103,9 @@ nav {
 /* SOBRE */
 #sobre {
     margin: 0 auto;
-    height: 500px;
-    width: 60%;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 20px;
 }
 
 #sobre h2 {
@@ -153,8 +154,8 @@ nav {
 /* HABILIDADES */
 #habilidades {
     margin: 0 auto;
-    width: 60%;
-    height: 330px;
+    width: 80%;
+    height: 100%;
     background: linear-gradient(to right, var(--bg) 40%, var(--second-bg));
     border-radius: 10px;
     margin-bottom: 20px;
@@ -230,8 +231,8 @@ nav {
 /* PROJETOS */
 #projetos {
     margin: 0 auto;
-    width: 60%;
-    height: auto;
+    width: 80%;
+    height: 100%;
     background: var(--second-bg);
     border-radius: 10px;
     margin-bottom: 20px;
@@ -337,8 +338,8 @@ nav {
 /* CONTATO */
 #contato {
     margin: 0 auto;
-    width: 60%;
-    height: 300px;
+    width: 80%;
+    height: 100%;
     background: linear-gradient(to right, var(--bg) 50%, var(--second-bg));
     border-radius: 10px;
     margin-bottom: 20px;
