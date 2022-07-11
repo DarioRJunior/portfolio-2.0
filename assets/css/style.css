@@ -257,8 +257,7 @@ nav {
 
 .projetos-container {
     display: flex;
-    gap: 50px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -271,6 +270,7 @@ nav {
 .projetos-box {
     width: 300px;
     border-radius: 10px;
+    margin-right: 40px;
     height: auto;
     background-color: var(--bg);
 }
