@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Portfólio | Dario Junior</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/scroll-bar.css">
+    <link rel="stylesheet" href="assets/css/animacao.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <a class="logo" href="index.html">Dario_Code</a>
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburguer"></span>
+            </button>
+            <div>
+            <ul class="nav-list" role="menu">
+                <li><a href="#banner">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <div class="titulo-banner">
+            <h1> Dario_Code Desenvolvedor Front-end e Designer.</h1>
+        </div>
+        <div>
+            <a class="btn-banner" href="https://www.linkedin.com/in/dariocode/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+            <a class="btn-banner" href="https://github.com/DarioRJunior" target="_blank"><i
+                    class="fa-brands fa-github"></i> Github</a>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <div class="sobre-conteudo">
+            <img class="foto-minha" src="assets/img/Foto-minha-transparente.png" alt="">
+            <p>&nbsp;&nbsp;Meu nome é Dario Ribeiro, me formei em Análise e Desenvolvimento de Sistemas pela Unicuritiba
+                em julho de 2022. Sempre gostei muito de tecnologia, comecei jogando video-games e sempre quis saber
+                como funcionava a programação dos jogos e isso me fez começar a ter interesse em programar e foi ai que
+                eu resolvi me aventurar neste mundo da tecnologia em 2019.</p>
+            <p class="barra">&nbsp;&nbsp;Atualmente entendo sobre tecnologias voltadas para o Front-end e algumas para o
+                Back-end.
+                Também gosto de
+                "brincar" com Figma e Photoshop para fazer designs para projetos pessoais ou de amigos.</p>
+        </div>
+    </section>
+
+    <section id="habilidades" class="init-hidden">
+        <h2>Habilidades</h2>
+        <p>Aqui estão algumas das minhas habilidades desenvolvidas ao longo desses anos:</p>
+        <div class="habilidades-container">
+            <div class="icons-container">
+                <ul class="icons">
+                    <li><i class="fa-brands fa-html5 skill-box"></i></li>
+                    <li><i class="fa-brands fa-css3-alt skill-box"></i></li>
+                    <li><i class="fa-brands fa-js-square skill-box"></i></li>
+                    <li><i class="fa-brands fa-php skill-box"></i></li>
+                    <li><i class="fa-brands fa-github skill-box"></i></li>
+                    <li><i class="fa-brands fa-figma skill-box"></i></li>
+                </ul>
+            </div>
+            <div class="descricao">
+                <p class="texto-descricao">Passe o Mouse por cima para ver a descrição!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="init-hidden">
+        <h2>Projetos</h2>
+        <p>Alguns projetos pessoais que desenvolvi:</p>
+        <div class="projetos-container">
+            <div class="projetos-box">
+                <img src="assets/img/projeto-01.jpg" alt="Projeto 1 - Jogo da batatinha frita">
+                <div class="descricao-projeto">
+                    <h3>Jogo da batatinha frita</h3>
+                    <p class="texto-projeto">Projeto realizado, para participar do desafio da BRQ front-end!</p>
+                </div>
+                <div class="link-projeto">
+                    <a class="ver-projeto" href="https://dariorjunior.github.io/squid-game/" target="_blank">Ver
+                        Projeto</a>
+                </div>
+            </div>
+            <div class="projetos-box">
+                <img src="assets/img/projeto-02.jpg" alt="Projeto 2 - Encurtador de Links">
+                <div class="descricao-projeto">
+                    <h3>EncurtaLink</h3>
+                    <p class="texto-projeto">Encurtador de links, feito por mim na Semana React JS do Sujeito
+                        Programador!</p>
+                </div>
+                <div class="link-projeto">
+                    <a class="ver-projeto" href="https://encurtalink.vercel.app/" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+            <div class="projetos-box">
+                <img src="assets/img/projeto-03.jpg" alt="Projeto 3 - Chat inspirado no discord">
+                <div class="descricao-projeto">
+                    <h3>Dariocord</h3>
+                    <p class="texto-projeto">chat inspirado no discord, feito na Imersão React 4 da Alura!</p>
+                </div>
+                <div class="link-projeto">
+                    <a class="ver-projeto" href="https://dariocord-alura.vercel.app/" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+        <div class="repositorios">
+            <a href="https://github.com/DarioRJunior?tab=repositories" target="_blank">Ver repositórios no github</a>
+        </div>
+    </section>
+
+    <section id="contato" class="init-hidden">
+        <h2>Contato</h2>
+        <p class="contato-texto">Entre em contato comigo pelos links abaixo:</p>
+        <div class="email">
+            <p>Meu e-mail:</p>
+            <p class="email-link">dariojr.code@gmail.com</p>
+        </div>
+        <div class="redes-sociais">
+            <p>Ou, pelas redes sociais:</p>
+            <a href="https://www.instagram.com/dario.code/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/dariocode/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/dario.code/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/dariocode/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/DarioRJunior" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <ul class="footer-list">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <p class="copyright"> Dario_Code @ 2022</p>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/a62f8c9ce0.js" crossorigin="anonymous"></script>
+<script src="assets/js/typewriter.js"></script>
+<script src="assets/js/mobile-navbar.js"></script>
+<script src="assets/js/animacao.js"></script>
+<script src="assets/js/habilidades.js"></script>
+
+</html>
